@@ -85,66 +85,6 @@
                     </Element>
                 </m_GroupStates>
             </Element>
-            <Element>
-                <m_Name text="Plane01"/>
-                <m_GeoName text="borobudur__Plane01_DCL_Plane01"/>
-                <m_GroupStates>
-                    <Element>
-                        <m_Values>
-                            <m_Values>
-                                <Element class="AssetObjects:ObjectValue">
-                                    <m_ObjectName text="borobudur_ground"/>
-                                    <m_eObjectType>MATERIAL</m_eObjectType>
-                                    <m_ParamName text="Material"/>
-                                </Element>
-                                <Element class="AssetObjects..BoolValue">
-                                    <m_bValue>true</m_bValue>
-                                    <m_ParamName text="Visible"/>
-                                </Element>
-                            </m_Values>
-                        </m_Values>
-                        <m_GroupName text="borobudur_ground.dds"/>
-                        <m_MeshName text="Plane01"/>
-                        <m_StateName text="Unworked"/>
-                    </Element>
-                    <Element>
-                        <m_Values>
-                            <m_Values>
-                                <Element class="AssetObjects:ObjectValue">
-                                    <m_ObjectName text="borobudur_ground"/>
-                                    <m_eObjectType>MATERIAL</m_eObjectType>
-                                    <m_ParamName text="Material"/>
-                                </Element>
-                                <Element class="AssetObjects..BoolValue">
-                                    <m_bValue>true</m_bValue>
-                                    <m_ParamName text="Visible"/>
-                                </Element>
-                            </m_Values>
-                        </m_Values>
-                        <m_GroupName text="borobudur_ground.dds"/>
-                        <m_MeshName text="Plane01"/>
-                        <m_StateName text="Worked"/>
-                    </Element>
-                    <Element>
-                        <m_Values>
-                            <m_Values>
-                                <Element class="AssetObjects:ObjectValue">
-                                    <m_ObjectName text="borobudur_ground"/>
-                                    <m_eObjectType>MATERIAL</m_eObjectType>
-                                    <m_ParamName text="Material"/>
-                                </Element>
-                                <Element class="AssetObjects..BoolValue">
-                                    <m_bValue>true</m_bValue>
-                                    <m_ParamName text="Visible"/>
-                                </Element>
-                            </m_Values>
-                        </m_Values>
-                        <m_GroupName text="borobudur_ground.dds"/>
-                        <m_MeshName text="Plane01"/>
-                        <m_StateName text="Pillaged"/>
-                    </Element>
-                </m_GroupStates>
-            </Element>
         </m_ModelInstances>
     </m_GeometrySet>
     <m_CookParams>
