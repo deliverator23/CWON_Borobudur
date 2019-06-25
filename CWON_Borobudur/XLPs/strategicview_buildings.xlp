@@ -10,28 +10,28 @@
 	<m_PackageName text="strategicview/strategicview_buildings"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="Wonders_Globe_Theatre_Revealed"/>
-			<m_ObjectName text="Wonders_Globe_Theatre_Revealed"/>
+			<m_EntryID text="Wonders_Borobudur_Revealed"/>
+			<m_ObjectName text="Wonders_Borobudur_Revealed"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Wonders_Globe_Theatre_Visible"/>
-			<m_ObjectName text="Wonders_Globe_Theatre_Visible"/>
+			<m_EntryID text="Wonders_Borobudur_Visible"/>
+			<m_ObjectName text="Wonders_Borobudur_Visible"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Wonders_Globe_Theatre_UnderConstruction_Visible"/>
-			<m_ObjectName text="Wonders_Globe_Theatre_UnderConstruction_Visible"/>
+			<m_EntryID text="Wonders_Borobudur_UnderConstruction_Visible"/>
+			<m_ObjectName text="Wonders_Borobudur_UnderConstruction_Visible"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Wonders_Globe_Theatre_UnderConstruction_Revealed"/>
-			<m_ObjectName text="Wonders_Globe_Theatre_UnderConstruction_Revealed"/>
+			<m_EntryID text="Wonders_Borobudur_UnderConstruction_Revealed"/>
+			<m_ObjectName text="Wonders_Borobudur_UnderConstruction_Revealed"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Wonders_Globe_Theatre_Pillaged_Visible"/>
-			<m_ObjectName text="Wonders_Globe_Theatre_Pillaged_Visible"/>
+			<m_EntryID text="Wonders_Borobudur_Pillaged_Visible"/>
+			<m_ObjectName text="Wonders_Borobudur_Pillaged_Visible"/>
 		</Element>
 		<Element>
-			<m_EntryID text="Wonders_Globe_Theatre_Pillaged_Revealed"/>
-			<m_ObjectName text="Wonders_Globe_Theatre_Pillaged_Revealed"/>
+			<m_EntryID text="Wonders_Borobudur_Pillaged_Revealed"/>
+			<m_ObjectName text="Wonders_Borobudur_Pillaged_Revealed"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
