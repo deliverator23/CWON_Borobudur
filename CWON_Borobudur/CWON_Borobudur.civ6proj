@@ -18,7 +18,7 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssemblyName>CWON_Borobudur</AssemblyName>
     <RootNamespace>CWON_Borobudur</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Boro_DB"><File>Gameplay/Borobudur_Gameplay.sql</File></UpdateDatabase><UpdateArt id="Boro_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="Boro_Icons" /><UpdateText id="Boro_Text"><File>Text/Borobudur_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Boro_DB"><File>Gameplay/Borobudur_Gameplay.sql</File></UpdateDatabase><UpdateArt id="Boro_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateIcons id="Boro_Icons"><File>Icons/Borobudur_Icons.xml</File></UpdateIcons><UpdateText id="Boro_Text"><File>Text/Borobudur_Text.xml</File></UpdateText></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
