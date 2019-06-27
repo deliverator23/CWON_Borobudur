@@ -1,12 +1,14 @@
 
 INSERT INTO Types (Type, Kind) VALUES ('BUILDING_BOROBUDUR', 'KIND_BUILDING');
 
-INSERT INTO Buildings (BuildingType, Name, Description, PrereqCivic, Cost, AdvisorType, MaxWorldInstances, IsWonder, RequiresPlacement, Quote)
-VALUES ('BUILDING_BOROBUDUR', 'LOC_BUILDING_BOROBUDUR_NAME', 'LOC_BUILDING_BOROBUDUR_DESCRIPTION', 'CIVIC_NAVAL_TRADITION', 710, 'ADVISOR_CULTURE', '1', 1, 1, 'LOC_BUILDING_BOROBUDUR_QUOTE');
+INSERT INTO Buildings (BuildingType, Name, Description, PrereqCivic, Cost, AdvisorType, MaxWorldInstances, IsWonder, RequiresPlacement, RequiresReligion, Quote)
+VALUES ('BUILDING_BOROBUDUR', 'LOC_BUILDING_BOROBUDUR_NAME', 'LOC_BUILDING_BOROBUDUR_DESCRIPTION', 'CIVIC_NAVAL_TRADITION', 710, 'ADVISOR_CULTURE', '1', 1, 1, 1, 'LOC_BUILDING_BOROBUDUR_QUOTE');
 
 INSERT INTO Building_RequiredFeatures (BuildingType, FeatureType)
 VALUES ('BUILDING_BOROBUDUR', 'FEATURE_JUNGLE');
 
+INSERT INTO BuildingPrereqs (Building, PrereqBuilding) 
+VALUES ('BUILDING_BOROBUDUR', 'BUILDING_TEMPLE');
 
 --Plus 1 Faith. Plus 2 Culture.
 
@@ -29,34 +31,25 @@ INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BOROBUDUR_GRANT
 INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES ('BUILDING_BOROBUDUR', 'BOROBUDUR_GRANT_TRANSLATOR');
 
 
--- 1 Apostle and 1 Missionary and 1 Guru appear.
+-- 1 Apostle and 1 Guru appear.
 
 INSERT INTO Modifiers
 		(ModifierId,									ModifierType, RunOnce, Permanent)
-VALUES	('BAMYAN_GRANT_APOSTLE',	'MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY', 1, 1);
+VALUES	('BOROBUDUR_GRANT_APOSTLE',	'MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY', 1, 1);
 
-INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BAMYAN_GRANT_APOSTLE', 'UnitType', 'UNIT_APOSTLE');
-INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BAMYAN_GRANT_APOSTLE', 'Amount', '1');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BOROBUDUR_GRANT_APOSTLE', 'UnitType', 'UNIT_APOSTLE');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BOROBUDUR_GRANT_APOSTLE', 'Amount', '1');
 
-INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES ('BUILDING_BAMYAN', 'BAMYAN_GRANT_APOSTLE');
-
-INSERT INTO Modifiers
-		(ModifierId,									ModifierType, RunOnce, Permanent)
-VALUES	('BAMYAN_GRANT_MISSIONARY',	'MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY', 1, 1);
-
-INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BAMYAN_GRANT_MISSIONARY', 'UnitType', 'UNIT_MISSIONARY');
-INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BAMYAN_GRANT_MISSIONARY', 'Amount', '1');
-
-INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES ('BUILDING_BAMYAN', 'BAMYAN_GRANT_MISSIONARY');
+INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES ('BUILDING_BOROBUDUR', 'BOROBUDUR_GRANT_APOSTLE');
 
 INSERT INTO Modifiers
 		(ModifierId,									ModifierType, RunOnce, Permanent)
-VALUES	('BAMYAN_GRANT_GURU',	'MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY', 1, 1);
+VALUES	('BOROBUDUR_GRANT_GURU',	'MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY', 1, 1);
 
-INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BAMYAN_GRANT_GURU', 'UnitType', 'UNIT_GURU');
-INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BAMYAN_GRANT_GURU', 'Amount', '1');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BOROBUDUR_GRANT_GURU', 'UnitType', 'UNIT_GURU');
+INSERT INTO ModifierArguments (ModifierId, Name, Value) VALUES ('BOROBUDUR_GRANT_GURU', 'Amount', '1');
 
-INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES ('BUILDING_BAMYAN', 'BAMYAN_GRANT_GURU');
+INSERT INTO BuildingModifiers (BuildingType, ModifierId) VALUES ('BUILDING_BOROBUDUR', 'BOROBUDUR_GRANT_GURU');
 
 
 -- +1 Faith for luxury goods in target.

@@ -5,7 +5,7 @@
 			<Text>Borobudur</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_BOROBUDUR_DESCRIPTION">
-			<Text>Your trade routes to foreign cities earn +1 [ICON_Faith] Faith for each luxury resource in destination city. Each Plantation with 6 tiles yields +1 [ICON_Faith] Faith. All Apostles you create gain the Translator ability. 1 Apostle, 1 Missionary and 1 Guru appear.</Text>
+			<Text>Your trade routes to foreign cities earn +1 [ICON_Faith] Faith for each luxury resource in destination city. Each Plantation with 6 tiles yields +1 [ICON_Faith] Faith. All Apostles you create gain the Translator ability. 1 Apostle and 1 Guru appear. Must have founded a Religion and requires Temple Building. Must be built on Rainforest.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_BOROBUDUR_QUOTE">
 			<Text>"Borobudur is admirable as a majestic work of art. The great extent of the masses of building covered in some parts with the luxuriant vegetation of the climate, the beauty and delicate execution of the separate portions, the symmetry and regularity of the whole." - Sir Thomas Stamford Raffles</Text>
