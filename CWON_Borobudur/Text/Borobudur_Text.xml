@@ -17,10 +17,33 @@
 			<Text>Built in the 9th century during the reign of the Sailendra Dynasty, the temple design follows Javanese Buddhist architecture, which blends the Indonesian indigenous cult of ancestor worship and the Buddhist concept of attaining Nirvana. The temple demonstrates the influences of Gupta art that reflects India's influence on the region, yet there are enough indigenous scenes and elements incorporated to make Borobudur uniquely Indonesian. The monument is a shrine to the Lord Buddha and a place for Buddhist pilgrimage. The pilgrim journey begins at the base of the monument and follows a path around the monument, ascending to the top through three levels symbolic of Buddhist cosmology: Kāmadhātu (the world of desire), Rupadhatu (the world of forms) and Arupadhatu (the world of formlessness). The monument guides pilgrims through an extensive system of stairways and corridors with 1,460 narrative relief panels on the walls and the balustrades. Borobudur has one of the largest and most complete ensembles of Buddhist reliefs in the world.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BOROBUDUR_CHAPTER_HISTORY_PARA_3">
-			<Text>Evidence suggests that Borobudur was constructed in the 9th century and subsequently abandoned following the 14th-century decline of Hindu kingdoms in Java and the Javanese conversion to Islam. Worldwide knowledge of its existence was sparked in 1814 by Sir Thomas Stamford Raffles, then the British ruler of Java, who was advised of its location by native Indonesians. Borobudur has since been preserved through several restorations. The largest restoration project was undertaken between 1975 and 1982 by the Indonesian government and UNESCO, followed by the monument's listing as a UNESCO World Heritage Site.</Text>
+			<Text>Evidence suggests that Borobudur was constructed in the 9th century and subsequently abandoned following the 14th-century decline of Hindu kingdoms in Java and the Javanese conversion to Islam.[7] Worldwide knowledge of its existence was sparked in 1814 by Sir Thomas Stamford Raffles, then the British ruler of Java, who was advised of its location by native Indonesians.[8] Borobudur has since been preserved through several restorations. The largest restoration project was undertaken between 1975 and 1982 by the Indonesian government and UNESCO, followed by the monument's listing as a UNESCO World Heritage Site.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BOROBUDUR_CHAPTER_HISTORY_PARA_4">
 			<Text>Borobudur is the largest Buddhist temple in the world, and ranks with Bagan in Myanmar and Angkor Wat in Cambodia as one of the great archeological sites of Southeast Asia. Borobudur remains popular for pilgrimage, with Buddhists in Indonesia celebrating Vesak Day at the monument. Borobudur is Indonesia's single most visited tourist attraction.</Text>
 		</Row>
 	</EnglishText>
+	<LocalizedText>
+		<Replace Tag="LOC_BUILDING_BOROBUDUR_NAME" Language="de_DE">
+			<Text>Borobudur</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BOROBUDUR_DESCRIPTION" Language="de_DE">
+			<Text>Handelswege zu fremden Städten gewähren +1 [ICON_Faith] Glauben durch jede Luxusressource in der Zielstadt. Jede Plantage innerhalb von 6 Geländefeldern gewährt +1 [ICON_Faith] Glauben. 1 Apostel und 1 Guru erscheinen. Benötigt einen Tempel und Ihr müsst eine Religion gegründet haben. Muss auf Regenwald errichtet werden.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BOROBUDUR_QUOTE" Language="de_DE">
+			<Text>"Borobudur ist als majestätisches Kunstwerk bewundernswert. Das große Ausmaß der Baumassen, die zum Teil mit der üppigen Vegetation des Klimas bedeckt sind, die Schönheit und die feine Ausfertigung der einzelnen Teile, die Symmetrie und Regelmäßigkeit des Ganzen." - Sir Thomas Stamford Raffles</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BOROBUDUR_CHAPTER_HISTORY_PARA_1" Language="de_DE">
+			<Text>Borobudur (auch Borobodur) ist die größte buddhistische Tempelanlage der Welt. Die kolossale Pyramide befindet sich rund 25 Kilometer nordwestlich von Yogyakarta auf der Insel Java in Indonesien. Sie gilt als das bedeutendste Bauwerk des Mahayana-Buddhismus auf Java.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BOROBUDUR_CHAPTER_HISTORY_PARA_2" Language="de_DE">
+			<Text>Gebaut wurde der Stupa vermutlich zwischen 750 und 850 während der Herrschaft der Sailendra-Dynastie. Als sich das Machtzentrum Javas im 10. und 11. Jahrhundert nach Osten verlagerte (vielleicht auch in Verbindung mit dem Ausbruch des Merapi 1006), geriet die Anlage in Vergessenheit und wurde von vulkanischer Asche und wuchernder Vegetation begraben. 1814 wurde sie wiederentdeckt; im Jahr 1835 brachten Europäer sie wieder ans Tageslicht. Ein Restaurierungsprogramm von 1973 bis 1983 brachte große Teile der Anlage wieder zu früherem Glanz.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BOROBUDUR_CHAPTER_HISTORY_PARA_3" Language="de_DE">
+			<Text>Insgesamt neun Stockwerke türmen sich auf der quadratischen Basis von 123 Metern Länge. An den Wänden der vier sich stufenartig verjüngenden Galerien befinden sich Flachreliefs in der Gesamtlänge von über fünf Kilometern, welche das Leben und Wirken Buddhas beschreiben. Darüber liegen drei sich konzentrisch verjüngende Terrassen mit insgesamt 76 Stupas, welche die Hauptstupa von fast 11 Meter Durchmesser umrahmen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_WONDERS_PAGE_BUILDING_BOROBUDUR_CHAPTER_HISTORY_PARA_4" Language="de_DE">
+			<Text>Der Bau wurde 2011 bis 2017 mit Finanz- und Sachhilfe der Bundesrepublik Deutschland restauriert.</Text>
+		</Replace>
+	</LocalizedText>
 </GameData>
